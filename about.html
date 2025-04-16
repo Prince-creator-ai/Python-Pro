@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+</head>
+<body>
+    <h1>About This Project</h1>
+    <p>This project is built using Flask and displays sales data.</p>
+    <h2>Definition of Each Variable:</h2>
+<ul>
+  <li><strong>OrderID:</strong> A unique identifier for each sales transaction.</li>
+  <li><strong>CustomerName:</strong> The name of the customer who made the purchase.</li>
+  <li><strong>Product:</strong> The name of the product sold.</li>
+  <li><strong>Category:</strong> The category or type of product (e.g., Electronics, Clothing).</li>
+  <li><strong>Quantity:</strong> The number of units sold in the transaction.</li>
+  <li><strong>Price:</strong> The price per unit of the product at the time of sale.</li>
+  <li><strong>Date:</strong> The date when the sale occurred.</li>
+  <li><strong>Region:</strong> The geographical region where the sale was made.</li>
+</ul>
+
+
+    <!-- Link to the dataset on Kaggle -->
+    <p>
+        Click the button below to view the dataset on Kaggle:
+    </p>
+    <a href="https://www.kaggle.com/datasets/vinothkannaece/sales-dataset/data" target="_blank">
+        <button>View Dataset</button>
+    </a>
+
+    <br><br>
+    <a href="{{ url_for('home') }}">Back to Home</a>
+</body>
+</html>
